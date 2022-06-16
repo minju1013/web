@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+  />
+</head>
+<body>
+<div class="wrap">
+    <div class="logo">
+        <h1>my interior</h1>
+    </div>
+
+    <div class="about">
+        <h2>プロフィール</h2>
+            <p>専門学生１年生です。
+                グラフィックデザインを学んでいます。
+            </p>
+    </div>
+
+    <div class="works">
+        <h2>作品</h2>
+            <p>自分の作った作品集です。<br>
+            画像をクリックするとサイズが大きくなります</p>
+            <!--ここに画像のhtmlを入れる-->
+        <div class="photoBox">
+            <div class="photo">
+                <a href="img1.jpg"data-fancybox="gallery" data-caption="サンプル画像です"><img src="img1.jpg" alt=""></a> 
+            </div> 
+             <div class="photo">
+                <a href="img2.jpg"data-fancybox="gallery" data-caption="サンプル画像２です"><img src="img2.jpg" alt=""></a> 
+            </div> 
+        </div>
+    </div>
+    <div class="twitter">
+        <h2>twitter</h2>
+        <a href="https://twitter.com/intent/tweet?button_hashtag=アリアナグランデ&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #アリアナグランデ</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>；
+    </div>
+
+    <div class="contact">
+        <h2>お問合せ</h2>
+            <p>ご連絡をお待ちしております</p>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script>
+   Fancybox.bind("[data-fancybox]", {
+});
+    </script>
+</body>
+</html>
