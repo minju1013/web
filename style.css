@@ -1,0 +1,19 @@
+body{
+    background-color: cornflowerblue;
+    color: cornsilk;
+    font-size: 130%;
+}
+
+a{
+    color: cyan;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkgray;
+    background-color: cadetblue;
+}
+
+ul,li{
+    list-style: none;
+}
